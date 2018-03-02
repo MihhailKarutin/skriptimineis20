@@ -1,7 +1,6 @@
 root kasutajana
 installi - apt-get install git
 tavakasutajana:
-esmakordselt:
 
 a) seadista - maara kasutajanimi, email, editor
 git config --global user.name "Ees Perenimi"
@@ -22,3 +21,15 @@ git remote add skriptimine https://github.com/MihhailKarutin/skriptimine.git
 
 b) git remote kontroll
 git remote -v
+
+pohikasutamine:
+
+a) pane fail jalgimisele:
+git add git_kasutamine
+
+b) lisa kirjeldus muudatuse kohta
+git commit -m "Kirjeldus, ehk kommentaar, kuni 50 symbolit"
+
+c) lisa muudetused koos kommentaariga kaugrepositooriumi
+git push -uf skriptimine master
+
